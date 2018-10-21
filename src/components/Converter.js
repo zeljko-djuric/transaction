@@ -30,7 +30,7 @@ class Converter extends React.Component{
     render(){
         return(
             <div>
-                {this.state.ethAmount} = {this.state.ethPriceUsd * this.state.ethAmount}
+                {this.state.ethAmount} = ${this.state.ethPriceUsd * this.state.ethAmount}
             </div>
         )
     }

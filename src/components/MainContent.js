@@ -8,6 +8,7 @@ import Converter from './Converter.js';
 const Wrapper = styled.div`
     padding: 4em;
     background: papayawhip;
+    padding-left: 36em;
 `;
 
 const InputCool = styled(Input)`
@@ -48,7 +49,7 @@ class MainContent extends React.Component{
     render(){
         return(
             <Wrapper>
-            <h1> Transaction</h1>
+            <h1>Ethereum Transaction</h1>
             <Row>
                 <Col xs={24} sm={24} md={12} lg={8} xl={6}>
                     <InputCool type="text" onChange={this.updateAddress} placeholder="Address To"/>
